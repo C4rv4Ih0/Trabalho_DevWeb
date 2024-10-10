@@ -1,0 +1,7 @@
+dw\futebol\control\JogadorController.class
+dw\futebol\model\Jogador.class
+dw\futebol\control\PagamentoController.class
+dw\futebol\FutebolApplication.class
+dw\futebol\model\Pagamento.class
+dw\futebol\repository\PagamentoRepository.class
+dw\futebol\repository\JogadorRepository.class
