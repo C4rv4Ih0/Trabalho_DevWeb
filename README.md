@@ -69,17 +69,22 @@ API RESTful java usando SpringBoot, com funcionalidades CRUD (Criar, Ler, Atuali
 - **GET:** `/pagamento/`
     - Descrição: Retorna uma lista com todos os pagamentos.
 
-### 2. Obter Pagamento por ID
+### 2. Obter Pagamento por ID (pagamento)
 
 - **GET:** `/pagamento/{id}`
-    - Descrição: Retorna os detalhes de um pagamento específico passando o  ID do jogador como parâmetro.
-   
-### 3. Criar Pagamento
+    - Descrição: Retorna os detalhes de um pagamento específico passando o  ID do pagamento como parâmetro.
+      
+### 3. Obter Pagamentos por ID do jogador
+
+- **GET:** `/pagamento/jogador/{id}`
+    - Descrição: Retorna os detalhes de pagamentos de um jogador específico.
+         
+### 4. Criar Pagamento
 
 - **POST:** `/pagamento/`
     - Descrição: Cria um novo pagamento para um jogador, passando ano, mês, valor e o ID do jogador em questão.    
 
-### 4. Atualizar Pagamento
+### 5. Atualizar Pagamento
 
 - **PUT:** `/pagamento/{id}`
     - Descrição: Atualiza os dados de um pagamento.
@@ -95,12 +100,12 @@ API RESTful java usando SpringBoot, com funcionalidades CRUD (Criar, Ler, Atuali
             } 
           }
 
-### 5. Deletar Pagamento por ID
+### 6. Deletar Pagamento por ID
 
 - **DELETE:** `/pagamento/{id}`
     - Descrição: Deleta um pagamento específico passando o ID do pagamento.
   
-### 6. Deletar Todos os Pagamentos
+### 7. Deletar Todos os Pagamentos
 
 - **DELETE:** `/pagamento/`
     - Descrição: Deleta todos os pagamentos registrados no banco, seja o mesmo de qualquer jogador.
